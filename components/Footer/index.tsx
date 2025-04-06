@@ -32,14 +32,14 @@ const Footer = () => {
                   <Image
                     width={110}
                     height={80}
-                    src="/images/logo/logo-light.svg"
+                    src="https://static.wixstatic.com/media/5dd8a0_c3e29ada13ce448e983848b71ca391b4~mv2.webp"
                     alt="Logo"
                     className="dark:hidden"
                   />
                   <Image
                     width={110}
                     height={80}
-                    src="/images/logo/logo-dark.svg"
+                    src="https://static.wixstatic.com/media/5dd8a0_c3e29ada13ce448e983848b71ca391b4~mv2.webp"
                     alt="Logo"
                     className="hidden dark:block"
                   />
@@ -47,9 +47,7 @@ const Footer = () => {
 
                 <p className="mb-10 mt-5">
                   Servidor privado de WoW, donde puedes jugar con tus amigos y
-                  disfrutar de una experiencia única. Con una comunidad activa y
-                  un soporte excepcional, ¡te esperamos para que te unas a
-                  nosotros!
+                  disfrutar de una experiencia única.
                 </p>
 
                 <p className="mb-1.5 text-sectiontitle uppercase tracking-[5px]">
@@ -80,7 +78,7 @@ const Footer = () => {
                   className="animate_top"
                 >
                   <h4 className="mb-9 text-itemtitle2 font-medium text-black dark:text-white">
-                    Quick Links
+                    Enlaces rápidos
                   </h4>
 
                   <ul>
@@ -89,31 +87,7 @@ const Footer = () => {
                         href="#"
                         className="mb-3 inline-block hover:text-primary"
                       >
-                        Home
-                      </a>
-                    </li>
-                    <li>
-                      <a
-                        href="#"
-                        className="mb-3 inline-block hover:text-primary"
-                      >
-                        Product
-                      </a>
-                    </li>
-                    <li>
-                      <a
-                        href="#"
-                        className="mb-3 inline-block hover:text-primary"
-                      >
-                        Careers
-                      </a>
-                    </li>
-                    <li>
-                      <a
-                        href="#"
-                        className="mb-3 inline-block hover:text-primary"
-                      >
-                        Pricing
+                        Inicio
                       </a>
                     </li>
                   </ul>
@@ -138,40 +112,32 @@ const Footer = () => {
                   className="animate_top"
                 >
                   <h4 className="mb-9 text-itemtitle2 font-medium text-black dark:text-white">
-                    Support
+                    Soporte
                   </h4>
 
                   <ul>
                     <li>
                       <a
-                        href="#"
+                        href="https://www.facebook.com/WowLibre/"
                         className="mb-3 inline-block hover:text-primary"
                       >
-                        Company
+                        Facebook
                       </a>
                     </li>
                     <li>
                       <a
-                        href="#"
+                        href="https://www.tiktok.com/@wowlibre"
                         className="mb-3 inline-block hover:text-primary"
                       >
-                        Press media
+                        Tiktok
                       </a>
                     </li>
                     <li>
                       <a
-                        href="#"
+                        href="https://chat.whatsapp.com/BDELJKhuJkWIMKxF8ExIdN"
                         className="mb-3 inline-block hover:text-primary"
                       >
-                        Our Blog
-                      </a>
-                    </li>
-                    <li>
-                      <a
-                        href="#"
-                        className="mb-3 inline-block hover:text-primary"
-                      >
-                        Contact Us
+                        Whatsapp
                       </a>
                     </li>
                   </ul>
@@ -196,10 +162,10 @@ const Footer = () => {
                   className="animate_top"
                 >
                   <h4 className="mb-9 text-itemtitle2 font-medium text-black dark:text-white">
-                    Newsletter
+                    Hoja informativa
                   </h4>
                   <p className="mb-4 w-[90%]">
-                    Subscribe to receive future updates
+                    Suscríbete para recibir futuras actualizaciones
                   </p>
 
                   <form action="#">
@@ -265,18 +231,11 @@ const Footer = () => {
             >
               <ul className="flex items-center gap-8">
                 <li>
-                  <a href="#" className="hover:text-primary">
-                    English
-                  </a>
-                </li>
-                <li>
-                  <a href="#" className="hover:text-primary">
-                    Privacy Policy
-                  </a>
-                </li>
-                <li>
-                  <a href="#" className="hover:text-primary">
-                    Support
+                  <a
+                    href="https://www.wowlibre.com/"
+                    className="hover:text-primary"
+                  >
+                    Wow Libre
                   </a>
                 </li>
               </ul>

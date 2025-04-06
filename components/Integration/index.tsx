@@ -11,9 +11,9 @@ const Integration = () => {
           {/* <!-- Section Title Start --> */}
           <SectionHeader
             headerInfo={{
-              title: `INTEGRATIONS`,
-              subtitle: `Remotely Maintain Your Data, From Anywhere, Anytime.`,
-              description: `Lorem ipsum dolor sit amet, consectetur adipiscing elit. In convallis tortor eros. Donec vitae tortor lacus. Phasellus aliquam ante in maximus.`,
+              title: `INTEGRACIONES`,
+              subtitle: `Gestiona Tus Datos Desde Cualquier Lugar, en Todo Momento`,
+              description: `Administra y sincroniza tu información de forma remota, sin importar dónde estés. Nuestra plataforma está completamente integrada y respaldada por el software de WoW Libre, garantizando seguridad, eficiencia y compatibilidad total. Con la solidez de una herramienta forjada para verdaderos campeones digitales, tus datos están siempre protegidos.`,
             }}
           />
 

@@ -20,9 +20,9 @@ const Testimonial = () => {
           <div className="animate_top mx-auto text-center">
             <SectionHeader
               headerInfo={{
-                title: `TESTIMONIALS`,
-                subtitle: `Client’s Testimonials`,
-                description: `Lorem ipsum dolor sit amet, consectetur adipiscing elit. In convallis tortor eros. Donec vitae tortor lacus. Phasellus aliquam ante in maximus.`,
+                title: `TESTIMONIOS`,
+                subtitle: `Voces de Azeroth`,
+                description: `Desde las mazmorras más oscuras de Roca Negra hasta las cumbres heladas de Corona de Hielo, héroes y leyendas dan testimonio de nuestra fuerza. Estas son las historias de quienes se atrevieron a luchar a nuestro lado.`,
               }}
             />
           </div>

@@ -59,7 +59,7 @@ const CTA = () => {
                 <Image
                   width={299}
                   height={299}
-                  src="/images/shape/shape-06.png"
+                  src="https://static.wixstatic.com/media/5dd8a0_81446352600c4734b224e4f054852711~mv2.png"
                   alt="Saly"
                   className="hidden xl:block"
                 />

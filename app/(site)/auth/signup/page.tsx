@@ -2,10 +2,10 @@ import Signup from "@/components/Auth/Signup";
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Sign Up Page - Solid SaaS Boilerplate",
+  title: "Create an account | Private Server",
 
   // other metadata
-  description: "This is Sign Up page for Startup Pro"
+  description: "Create an account to access Private Server",
 };
 
 export default function Register() {
