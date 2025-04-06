@@ -47,7 +47,7 @@ const Signup = () => {
         color: "white",
         background: "#0B1218",
       });
-      router.push("/auth/signin");
+      router.push("/");
     } catch (error: any) {
       Swal.fire({
         icon: "error",
