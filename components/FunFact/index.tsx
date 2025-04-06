@@ -7,6 +7,8 @@ import React, { useEffect } from "react";
 
 const FunFact = () => {
   const [loading, setLoading] = React.useState(true);
+  const [error, setError] = React.useState(false);
+
   const [stats, setStats] = React.useState<DashboardStats>();
 
   useEffect(() => {
@@ -16,8 +18,8 @@ const FunFact = () => {
         setStats(stats);
         setLoading(false);
       } catch (error: any) {
-        console.error("Error fetching stats:", error);
         setLoading(false);
+        setError(true);
       }
     };
 
@@ -32,6 +34,22 @@ const FunFact = () => {
             <div className="animate_top text-center">
               <h3 className="mb-2.5 text-3xl font-bold text-black dark:text-white xl:text-sectiontitle3">
                 Cargando...
+              </h3>
+            </div>
+          </div>
+        </div>
+      </section>
+    );
+  }
+
+  if (error) {
+    return (
+      <section className="px-4 py-20 md:px-8 lg:py-22.5 2xl:px-0">
+        <div className="relative z-1 mx-auto max-w-c-1390 rounded-lg bg-gradient-to-t from-[#F8F9FF] to-[#DEE7FF] py-22.5 dark:bg-blacksection dark:bg-gradient-to-t dark:from-transparent dark:to-transparent dark:stroke-strokedark xl:py-27.5">
+          <div className="flex flex-wrap justify-center gap-8 lg:gap-42.5">
+            <div className="animate_top text-center">
+              <h3 className="mb-2.5 text-3xl font-bold text-black dark:text-white xl:text-sectiontitle3">
+                Error al cargar estadísticas
               </h3>
             </div>
           </div>
