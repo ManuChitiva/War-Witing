@@ -12,19 +12,20 @@ const Hero = () => {
           <div className="flex lg:items-center lg:gap-8 xl:gap-32.5">
             <div className=" md:w-1/2">
               <h4 className="mb-4.5 text-lg font-medium text-black dark:text-white">
-                🔥 Revive la Época Dorada de WoW 3.3.5
+                🔥 Explora las nuevas zonas de War Within con total fluidez
               </h4>
               <h1 className="mb-5 pr-16 text-3xl font-bold text-black dark:text-white xl:text-hero ">
-                Wow{" "}
+                Entropiux{" "}
                 <span className="relative inline-block before:absolute before:bottom-2.5 before:left-0 before:-z-1 before:h-3 before:w-full before:bg-titlebg dark:before:bg-titlebgdark ">
-                  Libre
+                  Wow
                 </span>
               </h1>
               <p>
-                Sumérgete en el mejor servidor de WoW 3.3.5, con raids,
-                mazmorras y PvP 100% funcionales. Disfruta de una experiencia
-                Blizzlike optimizada, eventos personalizados y una comunidad
-                apasionada.
+                Entropiux es pionero en traerte World of Warcraft: The War
+                Within como ningún otro. Somos el primer servidor privado en
+                lanzar esta expansión, fruto del esfuerzo conjunto de un equipo
+                de desarrolladores apasionados que han trabajado intensamente
+                para hacerlo realidad.
               </p>
 
               <div className="mt-10">
@@ -72,13 +73,13 @@ const Hero = () => {
                 <div className=" relative aspect-[700/444] w-full">
                   <Image
                     className="shadow-solid-l dark:hidden"
-                    src="https://static.wixstatic.com/media/5dd8a0_0455fc60a7b74b6798a7742b2298d835~mv2.webp"
+                    src="https://static.wixstatic.com/media/5dd8a0_1eed58868d4b48879f638eab1ecf50ab~mv2.jpg"
                     alt="Hero"
                     fill
                   />
                   <Image
                     className="hidden rounded-md   shadow-solid-l dark:block"
-                    src="https://static.wixstatic.com/media/5dd8a0_98839e7a212a4e37a223e34d6fc01509~mv2.avif"
+                    src="https://static.wixstatic.com/media/5dd8a0_ff34c4c3e786417cabf51033ba7ba3c7~mv2.avif"
                     alt="Hero"
                     fill
                   />
