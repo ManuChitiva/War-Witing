@@ -54,7 +54,7 @@ const Footer = () => {
                   contact
                 </p>
                 <a className="text-itemtitle font-medium text-black dark:text-white">
-                  wowlibre@gmail.com
+                  entropiux@gmail.com
                 </a>
               </motion.div>
 
@@ -85,7 +85,7 @@ const Footer = () => {
                     <li>
                       <a
                         href="#"
-                        className="mb-3 inline-block hover:text-primary"
+                        className="mb-3 inline-block  hover:text-orange-500"
                       >
                         Inicio
                       </a>
@@ -235,7 +235,7 @@ const Footer = () => {
                     href="https://www.wowlibre.com/"
                     className="hover:text-primary"
                   >
-                    Wow Libre
+                    Entropiux Wow
                   </a>
                 </li>
               </ul>
