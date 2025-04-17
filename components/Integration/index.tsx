@@ -11,9 +11,9 @@ const Integration = () => {
           {/* <!-- Section Title Start --> */}
           <SectionHeader
             headerInfo={{
-              title: `INTEGRACIONES`,
-              subtitle: `Gestiona Tus Datos Desde Cualquier Lugar, en Todo Momento`,
-              description: `Administra y sincroniza tu información de forma remota, sin importar dónde estés. Nuestra plataforma está completamente integrada y respaldada por el software de WoW Libre, garantizando seguridad, eficiencia y compatibilidad total. Con la solidez de una herramienta forjada para verdaderos campeones digitales, tus datos están siempre protegidos.`,
+              title: `EntropiuX War Within`,
+              subtitle: `Tu nuevo hogar`,
+              description: `Bienvenido al servidor donde la nostalgia y la aventura se unen en una sola experiencia. Aquí, cada rincón guarda una historia, cada batalla forja leyendas y cada jugador es parte esencial de este universo en expansión. Ya seas un veterano de la Vieja Horda, un paladín errante en busca de redención o un nuevo aventurero con sed de gloria, este es tu hogar. Nuestra comunidad está lista para recibirte, nuestras tierras están vivas, y la batalla por el equilibrio apenas comienza. Descansa, explora, lucha... y quédate. Entropiux es más que un servidor: es tu nuevo mundo.`,
             }}
           />
 

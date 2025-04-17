@@ -46,15 +46,14 @@ const Footer = () => {
                 </a>
 
                 <p className="mb-10 mt-5">
-                  Servidor privado de WoW, donde puedes jugar con tus amigos y
-                  disfrutar de una experiencia única.
+                  Primer servidor privado de War Within
                 </p>
 
                 <p className="mb-1.5 text-sectiontitle uppercase tracking-[5px]">
                   contact
                 </p>
                 <a className="text-itemtitle font-medium text-black dark:text-white">
-                  entropiux@gmail.com
+                 <a href="https://discord.gg/VbNQda76hm">Discord</a>
                 </a>
               </motion.div>
 
@@ -78,7 +77,7 @@ const Footer = () => {
                   className="animate_top"
                 >
                   <h4 className="mb-9 text-itemtitle2 font-medium text-black dark:text-white">
-                    Enlaces rápidos
+                    //**Enlaces rápidos
                   </h4>
 
                   <ul>
@@ -87,7 +86,7 @@ const Footer = () => {
                         href="#"
                         className="mb-3 inline-block  hover:text-orange-500"
                       >
-                        Inicio
+                        //**Inicio
                       </a>
                     </li>
                   </ul>
@@ -112,13 +111,13 @@ const Footer = () => {
                   className="animate_top"
                 >
                   <h4 className="mb-9 text-itemtitle2 font-medium text-black dark:text-white">
-                    Soporte
+                   Comunidad
                   </h4>
 
                   <ul>
                     <li>
                       <a
-                        href="https://www.facebook.com/WowLibre/"
+                        href="https://www.facebook.com/profile.php?id=61574837116481"
                         className="mb-3 inline-block hover:text-primary"
                       >
                         Facebook
@@ -126,20 +125,13 @@ const Footer = () => {
                     </li>
                     <li>
                       <a
-                        href="https://www.tiktok.com/@wowlibre"
+                        href="https://discord.gg/VbNQda76hm"
                         className="mb-3 inline-block hover:text-primary"
                       >
-                        Tiktok
+                        Discord
                       </a>
                     </li>
-                    <li>
-                      <a
-                        href="https://chat.whatsapp.com/BDELJKhuJkWIMKxF8ExIdN"
-                        className="mb-3 inline-block hover:text-primary"
-                      >
-                        Whatsapp
-                      </a>
-                    </li>
+                   
                   </ul>
                 </motion.div>
 
@@ -235,7 +227,7 @@ const Footer = () => {
                     href="https://www.wowlibre.com/"
                     className="hover:text-primary"
                   >
-                    Entropiux Wow
+                    EntropiuX War Within
                   </a>
                 </li>
               </ul>
