@@ -223,7 +223,7 @@ const Footer = () => {
               <ul className="flex items-center gap-8">
                 <li>
                   <a
-                    href="https://www.wowlibre.com/"
+                    href="https://www.entropiux.com/"
                     className="hover:text-primary"
                   >
                     EntropiuX War Within
@@ -251,7 +251,7 @@ const Footer = () => {
               className="animate_top"
             >
               <p>
-                &copy; {new Date().getFullYear()} @Private WoW Server. All
+                &copy; {new Date().getFullYear()} @EntropiuX War Within. All
                 rights
               </p>
             </motion.div>
