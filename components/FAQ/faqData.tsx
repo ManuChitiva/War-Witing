@@ -23,8 +23,13 @@ const faqData: FAQ[] = [
   },
   {
     id: 5,
-    quest: "¿Cerrará el servidor out'",
+    quest: "¿Cerrará el servidor pronto?'",
     ans: "No, no planeamos abrir 1 o 3 meses y luego cerrar, jamás lo haremos mientras contemos con el apoyo  y respaldo de ustedes, nuestra de la comunidad.",
+  },
+  {
+    id: 6,
+    quest: "¿Con qué frecuencia se arreglan errores o se aplican cambios?'",
+    ans: "Los Devs trabajan día a día para traer cambios que se subirán generalmente en ciclos de 1 a 2 semanas, dependiendo del tipo de actualización o corrección.",
   },
   
 ];
