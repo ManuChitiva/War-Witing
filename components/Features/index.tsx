@@ -13,8 +13,8 @@ const Feature = () => {
           {/* <!-- Section Title Start --> */}
           <SectionHeader
             headerInfo={{
-              title: "Características",
-              subtitle: "Servidor Estable y Optimizado",
+              title: "EntropiuX",
+              subtitle: "Primer servidor de World of Warcraft The War Within",
               description: `Disfruta de una experiencia fluida y sin interrupciones, con una infraestructura sólida y mínima latencia.`,
             }}
           />
