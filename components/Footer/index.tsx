@@ -52,9 +52,9 @@ const Footer = () => {
                 <p className="mb-1.5 text-sectiontitle uppercase tracking-[5px]">
                   contact
                 </p>
-                <a className="text-itemtitle font-medium text-black dark:text-white">
-                 <a href="https://discord.gg/VbNQda76hm">Discord</a>
-                </a>
+                <p className="text-itemtitle font-medium text-black dark:text-white">
+                  <a href="https://discord.gg/VbNQda76hm">Discord</a>
+                </p>
               </motion.div>
 
               <div className="flex w-full flex-col gap-8 md:flex-row md:justify-between md:gap-0 lg:w-2/3 xl:w-7/12">
@@ -77,16 +77,16 @@ const Footer = () => {
                   className="animate_top"
                 >
                   <h4 className="mb-9 text-itemtitle2 font-medium text-black dark:text-white">
-                    //**Enlaces rápidos
+                    Enlaces rápidos
                   </h4>
 
                   <ul>
                     <li>
                       <a
-                        href="#"
+                        href="/"
                         className="mb-3 inline-block  hover:text-orange-500"
                       >
-                        //**Inicio
+                        Inicio
                       </a>
                     </li>
                   </ul>
@@ -111,7 +111,7 @@ const Footer = () => {
                   className="animate_top"
                 >
                   <h4 className="mb-9 text-itemtitle2 font-medium text-black dark:text-white">
-                   Comunidad
+                    Comunidad
                   </h4>
 
                   <ul>
@@ -131,7 +131,6 @@ const Footer = () => {
                         Discord
                       </a>
                     </li>
-                   
                   </ul>
                 </motion.div>
 
