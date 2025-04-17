@@ -8,9 +8,10 @@ import Testimonial from "@/components/Testimonial";
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Private Server Wow",
+  title: "EntropiuX War Within",
   // other metadata
-  description: "xx",
+  description: "Primer servidor de World of Warcraft The War Within",
+  keywords: "EntropiuX, War Within, WoW, World of Warcraft, servidor privado",
 };
 
 export default function Home() {

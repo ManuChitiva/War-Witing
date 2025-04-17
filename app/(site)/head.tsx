@@ -1,9 +1,9 @@
 export default function Head() {
   return (
     <>
-      <title> Private Server Wow</title>
+      <title> EntropiuX The War Within</title>
       <meta content="width=device-width, initial-scale=1" name="viewport" />
-      <meta name="description" content="Private Server Wow" />
+      <meta name="description" content="EntropiuX The War Within" />
       <link rel="icon" href="/images/favicon.ico" />
     </>
   );
