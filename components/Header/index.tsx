@@ -39,16 +39,16 @@ const Header = () => {
         <div className="flex w-full items-center justify-between xl:w-1/4">
           <a href="/">
             <Image
-              src="https://static.wixstatic.com/media/5dd8a0_c3e29ada13ce448e983848b71ca391b4~mv2.webp"
+              src="https://static.wixstatic.com/media/5dd8a0_fa6b9067d48f47a4ae9f8aa8132a1a93~mv2.avif"
               alt="logo"
-              width={60.03}
+              width={70.03}
               height={30}
               className="hidden w-full dark:block"
             />
             <Image
-              src="https://static.wixstatic.com/media/5dd8a0_c3e29ada13ce448e983848b71ca391b4~mv2.webp"
+              src="https://static.wixstatic.com/media/5dd8a0_fa6b9067d48f47a4ae9f8aa8132a1a93~mv2.avif"
               alt="logo"
-              width={60.03}
+              width={70.03}
               height={30}
               className="w-full dark:hidden"
             />
@@ -158,7 +158,7 @@ const Header = () => {
               href="/auth/signup"
               className="flex items-center justify-center rounded-full bg-primary px-7.5 py-2.5 text-regular text-white duration-300 ease-in-out hover:bg-primaryho"
             >
-              Register
+              Registrarme
             </Link>
           </div>
         </div>
