@@ -1,5 +1,6 @@
 import Brands from "@/components/Brands";
 import CTA from "@/components/CTA";
+import FAQ from "@/components/FAQ";
 import Feature from "@/components/Features";
 import FunFact from "@/components/FunFact";
 import Hero from "@/components/Hero";
@@ -18,12 +19,12 @@ export default function Home() {
   return (
     <main>
       <Hero />
-      <Brands />
       <FunFact />
       <Feature />
       <Integration />
       <CTA />
       <Testimonial />
+      <FAQ />
     </main>
   );
 }
