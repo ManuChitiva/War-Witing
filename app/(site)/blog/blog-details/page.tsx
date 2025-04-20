@@ -7,7 +7,7 @@ export const metadata: Metadata = {
   title: "Blog Details Page - Solid SaaS Boilerplate",
 
   // other metadata
-  description: "This is Blog details page for Solid Pro"
+  description: "This is Blog details page for Solid Pro",
 };
 
 const SingleBlogPage = async () => {
@@ -60,15 +60,6 @@ const SingleBlogPage = async () => {
                   <li className="mb-3 transition-all duration-300 last:mb-0 hover:text-primary">
                     <a href="#">Events</a>
                   </li>
-                  <li className="mb-3 transition-all duration-300 last:mb-0 hover:text-primary">
-                    <a href="#">Grids</a>
-                  </li>
-                  <li className="mb-3 transition-all duration-300 last:mb-0 hover:text-primary">
-                    <a href="#">News</a>
-                  </li>
-                  <li className="mb-3 transition-all duration-300 last:mb-0 hover:text-primary">
-                    <a href="#">Rounded</a>
-                  </li>
                 </ul>
               </div>
 
@@ -80,7 +71,9 @@ const SingleBlogPage = async () => {
                 <div className="mb-10 w-full overflow-hidden ">
                   <div className="relative aspect-[97/60] w-full sm:aspect-[97/44]">
                     <Image
-                      src={"/images/blog/blog-01.png"}
+                      src={
+                        "https://static.wixstatic.com/media/5dd8a0_53cedc390ba6483dbcc8d8badd26c384~mv2.avif"
+                      }
                       alt="Kobe Steel plant that supplied"
                       fill
                       className="rounded-md object-cover object-center"
@@ -89,75 +82,115 @@ const SingleBlogPage = async () => {
                 </div>
 
                 <h2 className="mb-5 mt-11 text-3xl font-semibold text-black dark:text-white 2xl:text-sectiontitle2">
-                  Kobe Steel plant that supplied
+                  Mini Guía para Jugar en Entropiux
                 </h2>
 
                 <ul className="mb-9 flex flex-wrap gap-5 2xl:gap-7.5">
                   <li>
                     <span className="text-black dark:text-white">Author: </span>{" "}
-                    Jhon Doe
+                    Luis hernandez
                   </li>
                   <li>
                     <span className="text-black dark:text-white">
-                      Published On: July 30, 2023
+                      Published On: Abril 20, 2025
                     </span>{" "}
                   </li>
                   <li>
                     <span className="text-black dark:text-white">
                       Category:
                     </span>
-                    Events
+                    Gaming
                   </li>
                 </ul>
 
-                <div className="blog-details">
-                  <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                    Nunc quis nibh lorem. Duis sed odio lorem. In a efficitur
-                    leo. Ut venenatis rhoncus quam sed condimentum. Curabitur
-                    vel turpis in dolor volutpat imperdiet in ut mi. Integer non
-                    volutpat nulla. Nunc elementum elit viverra, tempus quam
-                    non, interdum ipsum.
-                  </p>
+                <div className="blog-details space-y-6 text-base leading-relaxed">
+                  <h2 className="text-2xl font-bold text-primary">
+                    🧭 Guía para Instalar el Minicliente
+                  </h2>
 
-                  <p>
-                    Aenean augue ex, condimentum vel metus vitae, aliquam porta
-                    elit. Quisque non metus ac orci mollis posuere. Mauris vel
-                    ipsum a diam interdum ultricies sed vitae neque. Nulla
-                    porttitor quam vitae pulvinar placerat. Nulla fringilla elit
-                    sit amet justo feugiat sodales. Morbi eleifend, enim non
-                    eleifend laoreet, odio libero lobortis lectus, non porttitor
-                    sem urna sit amet metus. In sollicitudin quam est,
-                    pellentesque consectetur felis fermentum vitae.
-                  </p>
+                  {/* Paso 1 */}
+                  <div>
+                    <h3 className="text-xl font-semibold">
+                      📥 Paso 1: Descarga el Minicliente
+                    </h3>
+                    <p>
+                      Puedes descargar el archivo desde el siguiente enlace:
+                      <a
+                        href="https://www.mediafire.com/file/xr3eto69lxj0ipj/EntropiuX+-+Minimal+client.rar/file"
+                        className="ml-2 text-blue-600 underline"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                      >
+                        Descargar aquí
+                      </a>
+                    </p>
+                  </div>
 
-                  <div className="flex flex-wrap gap-5">
+                  {/* Paso 2 */}
+                  <div>
+                    <h3 className="text-xl font-semibold">
+                      🗂️ Paso 2: Descomprime y ejecuta
+                    </h3>
+                    <p>
+                      Descomprime el archivo `.rar`. Abre la carpeta{" "}
+                      <strong>retail</strong> y ejecuta el archivo `.exe` (el
+                      lanzador del juego).
+                    </p>
+                  </div>
+
+                  {/* Imágenes */}
+                  <div className="flex flex-wrap justify-center gap-5">
                     <Image
-                      src={"/images/blog/blog-01.png"}
+                      src="https://static.wixstatic.com/media/5dd8a0_05718c19773e43caaca37e083eee3a02~mv2.jpg"
                       width={350}
                       height={200}
-                      alt="image"
+                      alt="Pantalla del lanzador"
                     />
                     <Image
-                      src={"/images/blog/blog-02.png"}
+                      src="https://static.wixstatic.com/media/5dd8a0_df45c50b0f594ab282eb9d81400bf306~mv2.avif"
                       width={350}
                       height={200}
-                      alt="image"
+                      alt="Vista previa del juego"
                     />
                   </div>
 
-                  <h3 className="pt-8">
-                    Nunc elementum elit viverra, tempus quam non
-                  </h3>
+                  {/* Paso 3 */}
+                  <div>
+                    <h3 className="text-xl font-semibold">
+                      🌀 Paso 3: ¡Relájate!
+                    </h3>
+                    <p>
+                      Después de unos segundos, el juego se abrirá
+                      automáticamente. Se descargará en segundo plano mientras
+                      juegas, así que no necesitas tenerlo completo al
+                      principio.
+                    </p>
+                  </div>
 
-                  <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                    Nunc quis nibh lorem. Duis sed odio lorem. In a efficitur
-                    leo. Ut venenatis rhoncus quam sed condimentum. Curabitur
-                    vel turpis in dolor volutpat imperdiet in ut mi. Integer non
-                    volutpat nulla. Nunc elementum elit viverra, tempus quam
-                    non, interdum ipsum.
-                  </p>
+                  {/* Alternativa */}
+                  <div>
+                    <h3 className="text-xl font-semibold">
+                      🔁 Alternativa (si ya tienes WoW)
+                    </h3>
+                    <ul className="list-inside list-disc space-y-2">
+                      <li>
+                        Copia la carpeta <code>WTF</code> del Minicliente.
+                      </li>
+                      <li>
+                        Pégala y reemplaza la carpeta <code>WTF</code> dentro de
+                        tu instalación de WoW.
+                      </li>
+                      <li>
+                        Ejecuta el <code>.exe</code> del Minicliente.
+                      </li>
+                    </ul>
+                    <p className="mt-2">
+                      🚪 <strong>Conexión automática:</strong> no necesitas
+                      configurar nada. El portal ya está integrado:{" "}
+                      <code>api.entropiux.com</code>. Solo abre el juego, inicia
+                      sesión... ¡y a disfrutar!
+                    </p>
+                  </div>
                 </div>
 
                 <SharePost />

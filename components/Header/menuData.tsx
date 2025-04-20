@@ -19,6 +19,12 @@ const menuData: Menu[] = [
     newTab: false,
     path: "/#faq",
   },
+  {
+    id: 4,
+    title: "Guía de Instalación",
+    newTab: false,
+    path: "/blog/blog-details",
+  },
 ];
 
 export default menuData;
