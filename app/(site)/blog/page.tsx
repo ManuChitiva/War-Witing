@@ -3,10 +3,11 @@ import BlogItem from "@/components/Blog/BlogItem";
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Blog Page - Solid SaaS Boilerplate",
+  title: "Blog - EntropiuX",
 
   // other metadata
-  description: "This is Blog page for Solid Pro"
+  description: "EntropiuX Blog",
+  keywords: "EntropiuX, Blog, War Within",
 };
 
 const BlogPage = async () => {
