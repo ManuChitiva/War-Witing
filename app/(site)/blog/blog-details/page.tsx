@@ -67,73 +67,142 @@ const SingleBlogPage = async () => {
 
             <div className="lg:w-2/3">
               <div className="animate_top rounded-md border border-stroke bg-white p-7.5 shadow-solid-13 dark:border-strokedark dark:bg-blacksection md:p-10">
-                <div className="mb-10 w-full overflow-hidden ">
+                {/* Imagen principal */}
+                <div className="mb-10 w-full overflow-hidden">
                   <div className="relative aspect-[97/60] w-full sm:aspect-[97/44]">
                     <Image
-                      src={
-                        "https://static.wixstatic.com/media/5dd8a0_53cedc390ba6483dbcc8d8badd26c384~mv2.avif"
-                      }
-                      alt="Kobe Steel plant that supplied"
+                      src="https://static.wixstatic.com/media/5dd8a0_53cedc390ba6483dbcc8d8badd26c384~mv2.avif"
+                      alt="Entropiux instalación"
                       fill
                       className="rounded-md object-cover object-center"
                     />
                   </div>
                 </div>
 
+                {/* Título y metadatos */}
                 <h2 className="mb-5 mt-11 text-3xl font-semibold text-black dark:text-white 2xl:text-sectiontitle2">
-                  Mini Guía para Jugar en Entropiux
+                  🛠 GUÍA ALTERNATIVA DE INSTALACIÓN – ENTROPIUX WOW
                 </h2>
 
                 <ul className="mb-9 flex flex-wrap gap-5 2xl:gap-7.5">
                   <li>
-                    <span className="text-black dark:text-white">Author: </span>{" "}
-                    Luis hernandez
+                    <span className="text-black dark:text-white">Author:</span>{" "}
+                    Luis Hernandez
                   </li>
                   <li>
                     <span className="text-black dark:text-white">
-                      Published On: Abril 20, 2025
+                      Published On:
                     </span>{" "}
+                    Abril 20, 2025
                   </li>
                   <li>
                     <span className="text-black dark:text-white">
                       Category:
-                    </span>
+                    </span>{" "}
                     Gaming
                   </li>
                 </ul>
 
+                {/* Contenido de la guía */}
                 <div className="blog-details space-y-6 text-base leading-relaxed">
-                  <h2 className="text-2xl font-bold text-primary">
-                    🧭 Guía para Instalar el Minicliente
-                  </h2>
+                  <h4 className="text-2xl font-bold text-primary">
+                    Esta guía está pensada como alternativa si tienes problemas
+                    con la instalación normal o simplemente prefieres configurar
+                    el juego manualmente.
+                  </h4>
 
                   {/* Paso 1 */}
                   <div>
                     <h3 className="text-xl font-semibold">
-                      📥 Paso 1: Descarga el Minicliente
+                      ✅ 1. Descarga el cliente oficial de World of Warcraft
                     </h3>
                     <p>
-                      Puedes descargar el archivo desde el siguiente enlace:
+                      Descarga el cliente oficial de WoW Retail desde Blizzard:
                       <a
-                        href="https://www.mediafire.com/file/xr3eto69lxj0ipj/EntropiuX+-+Minimal+client.rar/file"
+                        href="https://worldofwarcraft.blizzard.com/"
                         className="ml-2 text-blue-600 underline"
                         target="_blank"
                         rel="noopener noreferrer"
                       >
-                        Descargar aquí
+                        Enlace oficial
                       </a>
+                    </p>
+                    <p className="mt-2">
+                      Aún estamos trabajando en nuestro propio launcher oficial
+                      para facilitar la instalación en el futuro.
                     </p>
                   </div>
 
                   {/* Paso 2 */}
                   <div>
                     <h3 className="text-xl font-semibold">
-                      🗂️ Paso 2: Descomprime y ejecuta
+                      🔄 2. Configura el juego para conectarte a nuestro
+                      servidor
+                    </h3>
+                    <p>Dirígete a la carpeta donde se instaló WoW Retail:</p>
+                    <pre className="mt-2 rounded bg-gray-100 p-3 text-sm dark:bg-gray-800">
+                      C:\Program Files (x86)\World of Warcraft\_retail_
+                    </pre>
+                    <p className="mt-4">
+                      Descarga el Arctium Game Launcher desde:
+                    </p>
+                    <a
+                      href="https://arctium.app/launcher/Arctium%20Game%20Launcher%201.1.2.129+dd0a50f237c0db03b758346f411da6a82052dc65.zip"
+                      className="text-blue-600 underline"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      Descargar Arctium Launcher
+                    </a>
+                    <p className="mt-2">
+                      Extrae el .zip y guarda el archivo `.exe` dentro de la
+                      carpeta <strong>_retail_</strong>.
+                    </p>
+                  </div>
+
+                  {/* Paso 3 */}
+                  <div>
+                    <h3 className="text-xl font-semibold">
+                      🧾 3. Modifica el archivo de configuración
                     </h3>
                     <p>
-                      Descomprime el archivo `.rar`. Abre la carpeta{" "}
-                      <strong>retail</strong> y ejecuta el archivo `.exe` (el
-                      lanzador del juego).
+                      Abre la carpeta <code>WTF</code> ubicada en:
+                    </p>
+                    <pre className="mt-2 rounded bg-gray-100 p-3 text-sm dark:bg-gray-800">
+                      C:\Program Files (x86)\World of Warcraft\_retail_\WTF
+                    </pre>
+                    <p className="mt-2">
+                      Edita el archivo <code>Config.wtf</code> y reemplaza esta
+                      línea:
+                    </p>
+                    <pre className="mt-2 rounded bg-gray-100 p-3 text-sm dark:bg-gray-800">
+                      SET portal "US"
+                    </pre>
+                    <p className="mt-2">Por esta otra:</p>
+                    <pre className="rounded bg-gray-100 p-3 text-sm dark:bg-gray-800">
+                      SET portal "api.entropiux.com"
+                    </pre>
+                  </div>
+
+                  {/* Paso 4 */}
+                  <div>
+                    <h3 className="text-xl font-semibold">
+                      🕹 4. Ejecuta el juego
+                    </h3>
+                    <p>
+                      Abre el juego usando el <strong>Arctium Launcher</strong>.
+                      No uses el launcher oficial de Blizzard.
+                    </p>
+                  </div>
+
+                  {/* Soporte */}
+                  <div>
+                    <h3 className="text-xl font-semibold">
+                      💬 ¿Problemas o dudas?
+                    </h3>
+                    <p>
+                      Entra al canal <code>#soporte</code> en nuestro Discord.
+                      ¡Estamos aquí para ayudarte!
                     </p>
                   </div>
 
@@ -153,41 +222,26 @@ const SingleBlogPage = async () => {
                     />
                   </div>
 
-                  {/* Paso 3 */}
+                  {/* Alternativa rápida */}
                   <div>
                     <h3 className="text-xl font-semibold">
-                      🌀 Paso 3: ¡Relájate!
-                    </h3>
-                    <p>
-                      Después de unos segundos, el juego se abrirá
-                      automáticamente. Se descargará en segundo plano mientras
-                      juegas, así que no necesitas tenerlo completo al
-                      principio.
-                    </p>
-                  </div>
-
-                  {/* Alternativa */}
-                  <div>
-                    <h3 className="text-xl font-semibold">
-                      🔁 Alternativa (si ya tienes WoW)
+                      🔁 Alternativa (si ya tienes WoW instalado)
                     </h3>
                     <ul className="list-inside list-disc space-y-2">
                       <li>
                         Copia la carpeta <code>WTF</code> del Minicliente.
                       </li>
                       <li>
-                        Pégala y reemplaza la carpeta <code>WTF</code> dentro de
-                        tu instalación de WoW.
+                        Reemplaza la carpeta <code>WTF</code> en tu instalación
+                        de WoW.
                       </li>
                       <li>
                         Ejecuta el <code>.exe</code> del Minicliente.
                       </li>
                     </ul>
                     <p className="mt-2">
-                      🚪 <strong>Conexión automática:</strong> no necesitas
-                      configurar nada. El portal ya está integrado:{" "}
-                      <code>api.entropiux.com</code>. Solo abre el juego, inicia
-                      sesión... ¡y a disfrutar!
+                      🚪 <strong>Conexión automática:</strong> El portal{" "}
+                      <code>api.entropiux.com</code> ya viene configurado.
                     </p>
                   </div>
                 </div>
