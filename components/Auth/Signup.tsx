@@ -1,11 +1,11 @@
 "use client";
 import { register } from "@/api/register/registerApi";
-import { SITE_KEY } from "@/configs/configs";
+import { EXPANSION_ID, SITE_KEY } from "@/configs/configs";
 import { motion } from "framer-motion";
 import Image from "next/image";
 import Link from "next/link";
 import { useRouter } from "next/navigation";
-import { useState } from "react";
+import { useEffect, useRef, useState } from "react";
 import ReCAPTCHA from "react-google-recaptcha";
 import Swal from "sweetalert2";
 
@@ -18,6 +18,7 @@ const Signup = () => {
   });
   const [recaptchaToken, setRecaptchaToken] = useState<string | null>(null);
   const router = useRouter();
+  const recaptchaRef = useRef<ReCAPTCHA>(null);
 
   const handleFormSubmit = async (event: React.FormEvent<HTMLFormElement>) => {
     event.preventDefault();
@@ -39,6 +40,7 @@ const Signup = () => {
         data.password,
         data.email,
         recaptchaToken || "",
+        EXPANSION_ID,
       );
       Swal.fire({
         icon: "success",
@@ -56,7 +58,10 @@ const Signup = () => {
         color: "white",
         background: "#0B1218",
       });
-    } finally {
+      if (recaptchaRef.current) {
+        recaptchaRef.current.reset();
+      }
+      setRecaptchaToken(null);
     }
   };
 
@@ -100,7 +105,7 @@ const Signup = () => {
             className="animate_top rounded-lg bg-white px-7.5 pt-7.5 shadow-solid-8 dark:border dark:border-strokedark dark:bg-black xl:px-15 xl:pt-15"
           >
             <h2 className="mb-15 text-center text-3xl font-semibold text-black dark:text-white xl:text-sectiontitle2">
-              Create an Account
+              Crear cuenta
             </h2>
 
             <form onSubmit={handleFormSubmit}>
@@ -156,6 +161,7 @@ const Signup = () => {
                 <div className="mb-4 flex items-center">
                   <span className="group mt-1 flex h-5 min-w-[20px] items-center justify-center rounded border-gray-300 bg-gray-100 text-blue-600 peer-checked:bg-primary dark:border-gray-600 dark:bg-gray-700">
                     <ReCAPTCHA
+                      ref={recaptchaRef}
                       sitekey={SITE_KEY}
                       onChange={(token) => setRecaptchaToken(token)}
                     />
@@ -166,7 +172,7 @@ const Signup = () => {
                   aria-label="signup with email and password"
                   className="inline-flex items-center gap-2.5 rounded-full bg-black px-6 py-3 font-medium text-white duration-300 ease-in-out hover:bg-blackho dark:bg-btndark dark:hover:bg-blackho"
                 >
-                  Create Account
+                  Registrarme
                   <svg
                     className="fill-white"
                     width="14"
@@ -188,7 +194,7 @@ const Signup = () => {
                   Already have an account?{" "}
                   <Link
                     className="text-black hover:text-primary dark:text-white dark:hover:text-primary"
-                    href="/auth/signin"
+                    href=""
                   >
                     Sign In
                   </Link>
