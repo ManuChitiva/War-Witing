@@ -7,6 +7,7 @@ export const register = async (
   password: string,
   email: string,
   jwt: string,
+  expansionId: number,
 ): Promise<void> => {
   const transactionId = uuidv4();
   try {
@@ -21,6 +22,7 @@ export const register = async (
         password: password,
         email: email,
         recaptcha_response: jwt,
+        expansion_id: expansionId,
       }),
     });
 
