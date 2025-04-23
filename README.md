@@ -1,3 +1,1 @@
-# Cliente Jairo
-
-Web Antropix
+# Web para world of warcraft 
