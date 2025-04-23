@@ -198,10 +198,21 @@ const SingleBlogPage = async () => {
                   {/* Soporte */}
                   <div>
                     <h3 className="text-xl font-semibold">
+                      💬 ¿Reino incompatible?
+                    </h3>
+                    <a
+                      href="http://www.mediafire.com/file/uz6whlqhu3yutkg/Wow.7z"
+                      className="text-blue-600 underline"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      Descarga el parche
+                    </a>
+                    <h3 className="text-xl font-semibold">
                       💬 ¿Problemas o dudas?
                     </h3>
                     <p>
-                      Entra al canal <code>#soporte</code> en nuestro Discord.
+                      Entra al canal <code>#Chat-global</code> en nuestro Discord.
                       ¡Estamos aquí para ayudarte!
                     </p>
                   </div>
@@ -209,7 +220,7 @@ const SingleBlogPage = async () => {
                   {/* Imágenes */}
                   <div className="flex flex-wrap justify-center gap-5">
                     <Image
-                      src="https://static.wixstatic.com/media/5dd8a0_05718c19773e43caaca37e083eee3a02~mv2.jpg"
+                      src="https://static.wixstatic.com/media/5dd8a0_fd5daa39bccf449ead544659de958bd6~mv2.avif"
                       width={350}
                       height={200}
                       alt="Pantalla del lanzador"
@@ -229,19 +240,17 @@ const SingleBlogPage = async () => {
                     </h3>
                     <ul className="list-inside list-disc space-y-2">
                       <li>
-                        Copia la carpeta <code>WTF</code> del Minicliente.
+                        Ve a tu carpeta <code>Retail</code> de tu juego.
                       </li>
                       <li>
-                        Reemplaza la carpeta <code>WTF</code> en tu instalación
-                        de WoW.
+                       Modifica el archiv Config que está dentro de la carpeta <code>WTF</code> en tu instalación de WoW y busca la línea SET portal "US" y cámbiala por SET portal  <code>"api.entropiux.com"</code>
                       </li>
                       <li>
-                        Ejecuta el <code>.exe</code> del Minicliente.
+                        Ejecuta el <code>.exe</code> del Arctium.
                       </li>
                     </ul>
                     <p className="mt-2">
-                      🚪 <strong>Conexión automática:</strong> El portal{" "}
-                      <code>api.entropiux.com</code> ya viene configurado.
+                      🚪 <strong>Espera que se cierre CMD y abra wow automático</strong> Recuerda que poara ingresar es correo y contraseña.
                     </p>
                   </div>
                 </div>
