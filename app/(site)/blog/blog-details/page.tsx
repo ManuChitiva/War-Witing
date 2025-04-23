@@ -220,7 +220,7 @@ const SingleBlogPage = async () => {
                   {/* Imágenes */}
                   <div className="flex flex-wrap justify-center gap-5">
                     <Image
-                      src="https://bnetcmsus-a.akamaihd.net/cms/blog_thumbnail/5w/5WQZN0EPVRSB1595866399195.jpg"
+                      src="https://static.wixstatic.com/media/5dd8a0_fd5daa39bccf449ead544659de958bd6~mv2.avif"
                       width={350}
                       height={200}
                       alt="Pantalla del lanzador"
