@@ -1,5 +1,5 @@
 "use client";
-import { register } from "@/api/register/registerApi";
+import { register } from "@/api/register/register";
 import { EXPANSION_ID, SITE_KEY } from "@/configs/configs";
 import { motion } from "framer-motion";
 import Image from "next/image";

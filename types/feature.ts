@@ -1,4 +1,4 @@
-export type Feature = {
+export type FeatureAnnouncements= {
   id: number;
   icon: string;
   title: string;

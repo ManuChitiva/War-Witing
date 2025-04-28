@@ -34,7 +34,6 @@ export const register = async (
       throw new Error(`${badRequestError.message}`);
     } else {
       const errorGeneric: GenericResponseDto<void> = await response.json();
-      console.log(errorGeneric);
       throw new Error(
         `${errorGeneric.message} - TransactionId: ${transactionId}`,
       );
