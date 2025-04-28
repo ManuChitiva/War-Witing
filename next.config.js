@@ -1,9 +1,9 @@
 /** @type {import('next').NextConfig} */
 
 const nextConfig = {
-  reactStrictMode: true,
+  reactStrictMode: false,
   images: {
-    domains: ["localhost","static.wixstatic.com"],
+    domains: ["static.wixstatic.com"],
     remotePatterns: [
       {
         protocol: "https",
