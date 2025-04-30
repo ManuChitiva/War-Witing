@@ -50,7 +50,7 @@ const Signin = () => {
             className="animate_top rounded-lg bg-white px-7.5 pt-7.5 shadow-solid-8 dark:border dark:border-strokedark dark:bg-black xl:px-15 xl:pt-15"
           >
             <h2 className="mb-15 text-center text-3xl font-semibold text-black dark:text-white xl:text-sectiontitle2">
-              Login to Your Account
+              Iniciar sesión en su cuenta
             </h2>
             <div className="flex flex-col">
               <div className="flex items-center gap-8">
@@ -186,7 +186,7 @@ const Signin = () => {
                   aria-label="login with email and password"
                   className="inline-flex items-center gap-2.5 rounded-full bg-black px-6 py-3 font-medium text-white duration-300 ease-in-out hover:bg-blackho dark:bg-btndark dark:hover:bg-blackho"
                 >
-                  Log in
+                  Loguearme
                   <svg
                     className="fill-white"
                     width="14"
@@ -205,12 +205,12 @@ const Signin = () => {
 
               <div className="mt-12.5 border-t border-stroke py-5 text-center dark:border-strokedark">
                 <p>
-                  Don't have an account?{" "}
+                  ¿No tienes una cuenta?{" "}
                   <Link
                     className="text-black hover:text-primary dark:text-white hover:dark:text-primary"
                     href="/auth/signup"
                   >
-                    Sign Up
+                    Inscribirse
                   </Link>
                 </p>
               </div>

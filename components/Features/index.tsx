@@ -30,18 +30,23 @@ const Feature = () => {
   if (!announcementData) {
     return (
       <div className="mx-auto max-w-c-1315 px-4 md:px-8 xl:px-0">
-        <div>
-          <div className="loader"></div>
+        <div className="flex h-96 items-center justify-center">
+          <svg
+            className="h-10 w-10 animate-spin text-gray-200"
+            xmlns="http://www.w3.org/2000/svg"
+            viewBox="0 0 24 24"
+          >
+            <path
+              fill="currentColor"
+              d="M12,1A11,11,0,1,0,23,12,11,11,0,0,0,12,1Zm0,19a8,8,0,1,1,8-8A8.009,8.009,0,0,1,12,20Z"
+            />
+          </svg>
         </div>
-        <div className="text-center"></div>
-        <h1 className="text-2xl font-bold text-white">Cargando...</h1>
-        <p className="text-gray-500">Por favor, espera un momento.</p>
       </div>
     );
   }
   return (
     <>
-      {/* <!-- ===== Features Start ===== --> */}
       <section id="features" className="py-20 lg:py-25 xl:py-30">
         <div className="mx-auto max-w-c-1315 px-4 md:px-8 xl:px-0">
           {/* <!-- Section Title Start --> */}

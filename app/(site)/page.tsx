@@ -1,4 +1,3 @@
-import Brands from "@/components/Brands";
 import CTA from "@/components/CTA";
 import FAQ from "@/components/FAQ";
 import Feature from "@/components/Features";
